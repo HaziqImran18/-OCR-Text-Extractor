@@ -1,6 +1,23 @@
 # 🧠 OCR Text Extractor with Groq & Streamlit
 
-A production-grade Optical Character Recognition (OCR) app powered by [Groq](https://groq.com/) and [Streamlit](https://streamlit.io/). Upload any image and extract clean, readable text using AI.
+## A production-grade Optical Character Recognition (OCR) app powered by [Groq](https://groq.com/) and [Streamlit](https://streamlit.io/). Upload any image and extract clean, readable text using AI.
+
+### 🧠 Project Overview
+This application leverages Groq's blazing-fast LLMs alongside OpenAI Whisper and Tesseract OCR to extract text from uploaded images directly in your browser. Built with Streamlit, it offers a clean and interactive UI, allowing users to:
+
+📤 Upload .jpg, .jpeg, or .png images
+
+🖼️ View the image in-app
+
+🧾 Extract all readable text using **pytesseract**
+
+📑 Summarize & Format the raw text using Groq API for llama-3.1-8b-instant LLM
+
+💾 Download the extracted content as a .txt file
+
+⚙️ Automatically fallback to Tesseract OCR if needed
+
+This makes it a powerful tool for students, researchers, and developers working with scanned documents, receipts, notes, or visual data.
 
 ---
 
@@ -33,12 +50,14 @@ A production-grade Optical Character Recognition (OCR) app powered by [Groq](htt
 | Streamlit   | Web UI                         |
 | Groq API    | For formating & Summarizing    |
 | Pillow      | Image processing               |
-| Tesseract   | for extracting text            |
+| Tesseract   | For extracting text            |
 | Python-dotenv | Secure API key loading       |
 
 ---
 
 ## 📥 Installation & Setup (Windows)
+
+### 1. Clone the repo
 
 ### 2. Create virtual environment
 python -m venv OCR
