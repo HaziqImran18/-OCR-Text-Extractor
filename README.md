@@ -1,4 +1,4 @@
-# 🧠 OCR Text Extractor with Groq & Streamlit
+# 🧠 OCR Text Extractor with Tesseract & Streamlit
 
 ## A production-grade Optical Character Recognition (OCR) app powered by [Groq](https://groq.com/) and [Streamlit](https://streamlit.io/). Upload any image and extract clean, readable text using AI.
 
