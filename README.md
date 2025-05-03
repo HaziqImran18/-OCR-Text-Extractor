@@ -68,6 +68,7 @@ pip install -r requirements.txt
 
 ### 4. Set your Groq API Key
 Create a .env file:
+
 GROQ_API_KEY=your_actual_groq_api_key_here
 
 ### 5. Download & Install Tesseract OCR
