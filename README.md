@@ -71,7 +71,7 @@ Create a .env file:
 GROQ_API_KEY=your_actual_groq_api_key_here
 
 ### 5. Download & Install Tesseract OCR
-🔗 Download Tesseract OCR for Windows (UB Mannheim Build)
+🔗 Download Tesseract OCR for Windows (https://github.com/UB-Mannheim/tesseract/wiki)
 
 📁 Typical install path:
 C:\Program Files\Tesseract-OCR\tesseract.exe
